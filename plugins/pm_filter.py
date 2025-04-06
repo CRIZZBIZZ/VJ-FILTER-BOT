@@ -848,9 +848,29 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
+                InlineKeyboardButton("sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+            ]
+        )
+        btn.insert(0, [
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
+            InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
+        ])
+    else:
+        btn = []
+        btn.insert(0, 
+            [
+                InlineKeyboardButton(f'ǫᴜᴀʟɪᴛʏ', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
+                InlineKeyboardButton("sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+            ]
+        )
+        btn.insert(0, [
+            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
+            InlineKeyboardButton("ʏᴇᴀʀs", callback_data=f"years#{key}")
         ])
     if lang != "homepage":
         req = query.from_user.id
@@ -858,9 +878,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ↭", callback_data=f"next_{req}_{key}_{offset}")])
     
     if not settings["button"]:
-        cur_time = datetime.now(pytz.timezoneInlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")('Asia/Kolkata')).time()
+        cur_time = datetime.now(pytz.timezone('Asia/Kolkata')).time()
         time_difference = timedelta(hours=cur_time.hour, minutes=cur_time.minute, seconds=(cur_time.second+(cur_time.microsecond/1000000))) - timedelta(hours=curr_time.hour, minutes=curr_time.minute, seconds=(curr_time.second+(curr_time.microsecond/1000000)))
         remaining_seconds = "{:.2f}".format(time_difference.total_seconds())
         total_results = len(files)
