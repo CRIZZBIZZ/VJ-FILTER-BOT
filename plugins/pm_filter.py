@@ -842,12 +842,6 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         ]
         btn.insert(0, 
             [
-                
-        ])
-    else:
-        btn = []
-        btn.insert(0, 
-            [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
                 InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
