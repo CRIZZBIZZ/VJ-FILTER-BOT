@@ -273,7 +273,7 @@ async def start(client, message):
                     button = [[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                     ],[
-                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])
+                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
                     ]]
                     reply_markup = InlineKeyboardMarkup(button)
                 else:
@@ -344,7 +344,7 @@ async def start(client, message):
                     button = [[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                     ],[
-                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])
+                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
                     ]]
                     reply_markup = InlineKeyboardMarkup(button)
                 else:
