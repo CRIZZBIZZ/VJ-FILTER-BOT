@@ -28,10 +28,8 @@ from TechVJ.util.file_properties import get_name, get_hash, get_media_file_size
 logger = logging.getLogger(__name__)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-req_channel = REQ_CHANNEL
 BUTTONS = {}
 SPELL_CHECK = {}
-# 
 BUTTON = {}
 FRESH = {}
 BUTTONS0 = {}
