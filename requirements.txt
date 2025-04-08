@@ -5,7 +5,7 @@ bs4
 shortzy 
 pytz 
 aiohttp
-yt-dlp
+yt-dlp==2023.07.06
 youtube-dl
 ytthumb
 jinja2
