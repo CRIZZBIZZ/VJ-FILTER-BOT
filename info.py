@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/36710e304fec8bb3f18e5-ccff4b3f9b02e8766a.jpg https://graph.org/file/6c91d2331dee550a781ed-a295a1d17be6555b88.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/465e6e44677394082f588.jpg https://telegra.ph/file/793aacad26222daefc510.jpg https://telegra.ph/file/55ab44111fad556d227b1.jpg')).split()
 
 
 # Admins & Users
@@ -59,7 +59,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Reenu:Reenu@cluster0.wcrxrl8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Reenu:Reenu@cluster0.yjyjo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
