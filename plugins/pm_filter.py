@@ -124,7 +124,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
          ])
     else:
         btn = []
@@ -132,7 +132,7 @@ async def next_page(bot, query):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
     try:
         if settings['max_btn']:
@@ -349,7 +349,7 @@ async def filter_yearss_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
     else:
         btn = []
@@ -357,7 +357,7 @@ async def filter_yearss_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
 
     if offset != "":
@@ -503,7 +503,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
     else:
         btn = []
@@ -511,7 +511,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
 
     if offset != "":
@@ -659,7 +659,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
     else:
         btn = []
@@ -667,7 +667,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
 
     if offset != "":
@@ -844,7 +844,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
     else:
         btn = []
@@ -852,7 +852,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
     if lang != "homepage":
         req = query.from_user.id
@@ -970,7 +970,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
     else:
         btn = []
@@ -978,7 +978,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             [
                 InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}"),
                 InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_HD")
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MoviEsBizzMalaYalaM_NEW")
         ])
 
     if offset != "":
@@ -1771,7 +1771,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('❣️ Uꜱᴇ Gʀᴏᴜᴘ Tᴏ Gᴇᴛ Mᴏᴠɪᴇꜱ ❣️', url='https://t.me/MoviesBizzChat1')
             ],[
                 InlineKeyboardButton('© Oᴡɴᴇʀ', url='https://t.me/MoviesBizz_yt'),
-                InlineKeyboardButton('🦋Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_HD')
+                InlineKeyboardButton('🦋Cʜᴀɴɴᴇʟ', url='https://t.me/MoviEsBizzMalaYalaM_NEW')
             ],[
                 InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
